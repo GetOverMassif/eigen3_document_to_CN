@@ -1,0 +1,9 @@
+<map id="Eigen::RotationBase&lt; Derived, _Dim &gt;" name="Eigen::RotationBase&lt; Derived, _Dim &gt;">
+<area shape="rect" id="node1" title="Common base class for compact rotation representations." alt="" coords="240,5,383,229"/>
+<area shape="rect" id="node2" href="$classEigen_1_1QuaternionBase.html" title=" " alt="" coords="17,277,192,545"/>
+<area shape="rect" id="node4" href="$classEigen_1_1QuaternionBase.html" title=" " alt="" coords="216,277,407,545"/>
+<area shape="rect" id="node6" href="$classEigen_1_1QuaternionBase.html" title=" " alt="" coords="431,277,587,545"/>
+<area shape="rect" id="node3" href="$classEigen_1_1Map_3_01const_01Quaternion_3_01__Scalar_01_4_00_01__Options_01_4.html" title="Quaternion expression mapping a constant memory buffer." alt="" coords="5,667,204,773"/>
+<area shape="rect" id="node5" href="$classEigen_1_1Map_3_01Quaternion_3_01__Scalar_01_4_00_01__Options_01_4.html" title="Expression of a quaternion from a memory buffer." alt="" coords="230,659,393,781"/>
+<area shape="rect" id="node7" href="$classEigen_1_1Quaternion.html" title="The quaternion class used to represent 3D orientations and rotations." alt="" coords="438,593,579,847"/>
+</map>

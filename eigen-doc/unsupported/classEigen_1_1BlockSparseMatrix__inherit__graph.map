@@ -1,0 +1,5 @@
+<map id="Eigen::BlockSparseMatrix&lt; _Scalar, _BlockAtCompileTime, _Options, _StorageIndex &gt;" name="Eigen::BlockSparseMatrix&lt; _Scalar, _BlockAtCompileTime, _Options, _StorageIndex &gt;">
+<area shape="rect" id="node1" title="A versatile sparse matrix representation where each element is a block." alt="" coords="5,564,224,979"/>
+<area shape="rect" id="node2" href="/usr/local/google/home/cantonios/dev/eigen/.builddoc/doc/Eigen.doxytags$classEigen_1_1SparseMatrixBase.html" title=" " alt="" coords="11,189,218,516"/>
+<area shape="rect" id="node3" href="/usr/local/google/home/cantonios/dev/eigen/.builddoc/doc/Eigen.doxytags$structEigen_1_1EigenBase.html" title=" " alt="" coords="24,5,205,141"/>
+</map>

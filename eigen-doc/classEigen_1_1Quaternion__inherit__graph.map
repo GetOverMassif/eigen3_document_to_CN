@@ -1,0 +1,5 @@
+<map id="Eigen::Quaternion&lt; _Scalar, _Options &gt;" name="Eigen::Quaternion&lt; _Scalar, _Options &gt;">
+<area shape="rect" id="node1" title="The quaternion class used to represent 3D orientations and rotations." alt="" coords="13,593,154,847"/>
+<area shape="rect" id="node2" href="$classEigen_1_1QuaternionBase.html" title=" " alt="" coords="5,277,161,545"/>
+<area shape="rect" id="node3" href="$classEigen_1_1RotationBase.html" title="Common base class for compact rotation representations." alt="" coords="12,5,155,229"/>
+</map>
