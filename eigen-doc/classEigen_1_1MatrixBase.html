@@ -114,20 +114,20 @@ $(document).ready(function(){initNavTree('classEigen_1_1MatrixBase.html',''); in
 <div class="title">Eigen::MatrixBase&lt; Derived &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__DenseMatrixManipulation__chapter.html">稠密矩阵和数组的操作</a> &raquo; <a class="el" href="group__DenseMatrixManipulation__Reference.html">Reference</a> &raquo; <a class="el" href="group__Core__Module.html">Core module</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<a name="details" id="details"></a><h2 class="groupheader">细节描述</h2>
 <div class="textblock"><h3>template&lt;typename Derived&gt;<br />
 class Eigen::MatrixBase&lt; Derived &gt;</h3>
 
-<p>Base class for all dense matrices, vectors, and expressions. </p>
-<p>This class is the base that is inherited by all matrix, vector, and related expression types. Most of the <a class="el" href="namespaceEigen.html" title="Namespace containing all symbols from the Eigen library.">Eigen</a> API is contained in this class, and its base classes. Other important classes for the <a class="el" href="namespaceEigen.html" title="Namespace containing all symbols from the Eigen library.">Eigen</a> API are <a class="el" href="classEigen_1_1Matrix.html" title="Matrix 类, also used for vectors and row-vectors.">Matrix</a>, and <a class="el" href="classEigen_1_1VectorwiseOp.html" title="Pseudo expression providing broadcasting and partial reduction operations.">VectorwiseOp</a>.</p>
+<p>所有稠密矩阵，向量和相关表达的基础 class 。 </p>
+<p>此类是所有矩阵、向量和相关表达式类型继承的基类。大多数的 <a class="el" href="namespaceEigen.html" title="Namespace containing all symbols from the Eigen library.">Eigen</a> API 包含在此类和它的基类中。. Other important classes for the <a class="el" href="namespaceEigen.html" title="Namespace containing all symbols from the Eigen library.">Eigen</a> API are <a class="el" href="classEigen_1_1Matrix.html" title="Matrix 类, also used for vectors and row-vectors.">Matrix</a>, and <a class="el" href="classEigen_1_1VectorwiseOp.html" title="Pseudo expression providing broadcasting and partial reduction operations.">VectorwiseOp</a>.</p>
 <p>Note that some methods are defined in other modules such as the <a class="el" href="group__LU__Module.html">LU module</a> LU module for all functions related to matrix inversions.</p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
+<dl class="tparams"><dt>模板参数</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">Derived</td><td>is the derived type, e.g. a matrix type, or an expression, etc.</td></tr>
+    <tr><td class="paramname">Derived</td><td> 是一个派生类型，例如一个矩阵类型，或者一个表达式等等。</td></tr>
   </table>
   </dd>
 </dl>
-<p>When writing a function taking <a class="el" href="namespaceEigen.html" title="Namespace containing all symbols from the Eigen library.">Eigen</a> objects as argument, if you want your function to take as argument any matrix, vector, or expression, just let it take a <a class="el" href="classEigen_1_1MatrixBase.html" title="Base class for all dense matrices, vectors, and expressions.">MatrixBase</a> argument. As an example, here is a function printFirstRow which, given a matrix, vector, or expression <em>x</em>, prints the first row of <em>x</em>.</p>
+<p>当写一个以 <a class="el" href="namespaceEigen.html" title="Namespace containing all symbols from the Eigen library.">Eigen</a> 的对象作为参数的函数时，如果你想要你的函数将任何矩阵、向量或表达式作为参数，只要让它作为一个 <a class="el" href="classEigen_1_1MatrixBase.html" title="Base class for all dense matrices, vectors, and expressions.">MatrixBase</a> 参数即可。举个例子，这里是一个函数 printFirstRow ，给定一个矩阵、向量或表达式 <em>x</em>，print 出 <em>x</em> 的第一行。</p>
 <div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> Derived&gt;</div>
 <div class="line"><span class="keywordtype">void</span> printFirstRow(<span class="keyword">const</span> <a class="code" href="classEigen_1_1MatrixBase.html">Eigen::MatrixBase&lt;Derived&gt;</a>&amp; <a class="code" href="classEigen_1_1DenseCoeffsBase_3_01Derived_00_01WriteAccessors_01_4.html#af163a982f5a7ad7e5c3336990b3d7000">x</a>)</div>
 <div class="line">{</div>
@@ -135,7 +135,7 @@ class Eigen::MatrixBase&lt; Derived &gt;</h3>
 <div class="line">}</div>
 <div class="ttc" id="aclassEigen_1_1DenseCoeffsBase_3_01Derived_00_01WriteAccessors_01_4_html_af163a982f5a7ad7e5c3336990b3d7000"><div class="ttname"><a href="classEigen_1_1DenseCoeffsBase_3_01Derived_00_01WriteAccessors_01_4.html#af163a982f5a7ad7e5c3336990b3d7000">Eigen::DenseCoeffsBase&lt; Derived, WriteAccessors &gt;::x</a></div><div class="ttdeci">Scalar &amp; x()</div><div class="ttdef"><b>Definition:</b> DenseCoeffsBase.h:435</div></div>
 <div class="ttc" id="aclassEigen_1_1MatrixBase_html"><div class="ttname"><a href="classEigen_1_1MatrixBase.html">Eigen::MatrixBase</a></div><div class="ttdoc">Base class for all dense matrices, vectors, and expressions.</div><div class="ttdef"><b>Definition:</b> MatrixBase.h:50</div></div>
-</div><!-- fragment --><p>This class can be extended with the help of the plugin mechanism described on the page <a class="el" href="TopicCustomizing_Plugins.html">Extending MatrixBase (and other classes)</a> by defining the preprocessor symbol <code>EIGEN_MATRIXBASE_PLUGIN</code>.</p>
+</div><!-- fragment --><p>这个类可以在页面<a class="el" href="TopicCustomizing_Plugins.html">Extending MatrixBase (and other classes)</a> 描述的插件机制的帮助下被扩展，通过定义预处理符号 <code>EIGEN_MATRIXBASE_PLUGIN</code>。</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="TopicClassHierarchy.html">The class hierarchy</a> </dd></dl>
 </div><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for Eigen::MatrixBase&lt; Derived &gt;:</div>
